@@ -1,0 +1,44 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    background-color: black;
+    color: aliceblue;
+}
+
+.social-box{
+    margin: 0;
+    width: 50;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.social-img{
+    object-fit: fill;
+    padding: 2px;
+    width: 250px;
+    object-position: center;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    text-decoration: underline;
+    color: blanchedalmond;
+}
+
+.gallery-image{
+    width: 250px;
+    height: 250px;
+    overflow: clip;
+    object-fit: cover;
+    image-rendering: pixelated;
+    padding: 2px;
+    object-fit: cover;
+    object-position: 250px, 250px;
+    transition-duration: 0.8;
+}
+:hover{
+    object-fit: contain;
+}
