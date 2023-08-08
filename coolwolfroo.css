@@ -1,31 +1,36 @@
 body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
+    background-color: rgb(202, 107, 6);
+    color: aliceblue;
+    width: 90%;
+    text-decoration: none;
     background-color: black;
     color: aliceblue;
+}
 }
 
 .social-box{
     margin: 0;
     width: 50;
     align-items: center;
-    border: 2px solid red;
+
 }
 
-.social-img{
-    object-fit: fill;
-    padding: 2px;
-    width: 250px;
-    object-position: center;
+.mw-headerart{
+    align-content: center;
+    
 }
+
 
 a{
     text-decoration: none;
     color: aliceblue;
 }
+
 a:hover{
     text-decoration: underline;
-    color: blanchedalmond;
+    color: orange;
 }
 
 .gallery-image{
